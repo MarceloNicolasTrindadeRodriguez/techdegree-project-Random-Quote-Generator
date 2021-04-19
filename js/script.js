@@ -43,7 +43,7 @@ let quotes = [
  * This function is for selecting a random quote from the array of quotes up top
  */
 function getRandomQuote() {
-  let randomNumber = Math.floor(Math.random() * 4);
+  let randomNumber = Math.floor(Math.random() * quotes.length);
   let randomQuote = quotes[randomNumber];
 
   return randomQuote;
